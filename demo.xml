@@ -1,0 +1,238 @@
+<xml
+    xmlns="http://www.w3.org/1999/xhtml">
+    <block type="global_declaration" id="23" inline="false" x="0" y="0">
+        <field name="NAME">
+            <block type="lexical_variable_get" id="1">
+                <field name="VAR">MAP</field>
+            </block>
+        </field>
+        <value name="VALUE">
+            <block type="lists_create_with" id="22" inline="false">
+                <mutation items="4"></mutation>
+                <value name="ADD0">
+                    <block type="lists_create_with" id="6" inline="false">
+                        <mutation items="4"></mutation>
+                        <value name="ADD0">
+                            <block type="math_number" id="2">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD1">
+                            <block type="math_number" id="3">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD2">
+                            <block type="math_number" id="4">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD3">
+                            <block type="math_number" id="5">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                    </block>
+                </value>
+                <value name="ADD1">
+                    <block type="lists_create_with" id="11" inline="false">
+                        <mutation items="4"></mutation>
+                        <value name="ADD0">
+                            <block type="math_number" id="7">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD1">
+                            <block type="math_number" id="8">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD2">
+                            <block type="math_number" id="9">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD3">
+                            <block type="math_number" id="10">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                    </block>
+                </value>
+                <value name="ADD2">
+                    <block type="lists_create_with" id="16" inline="false">
+                        <mutation items="4"></mutation>
+                        <value name="ADD0">
+                            <block type="math_number" id="12">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD1">
+                            <block type="math_number" id="13">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD2">
+                            <block type="math_number" id="14">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD3">
+                            <block type="math_number" id="15">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                    </block>
+                </value>
+                <value name="ADD3">
+                    <block type="lists_create_with" id="21" inline="false">
+                        <mutation items="4"></mutation>
+                        <value name="ADD0">
+                            <block type="math_number" id="17">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD1">
+                            <block type="math_number" id="18">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD2">
+                            <block type="math_number" id="19">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                        <value name="ADD3">
+                            <block type="math_number" id="20">
+                                <field name="NUM">0</field>
+                            </block>
+                        </value>
+                    </block>
+                </value>
+            </block>
+        </value>
+    </block>
+    <block type="global_declaration" id="26" inline="false" x="0" y="0">
+        <field name="NAME">
+            <block type="lexical_variable_get" id="24">
+                <field name="VAR">MOVE_UP</field>
+            </block>
+        </field>
+        <value name="VALUE">
+            <block type="math_number" id="25">
+                <field name="NUM">0</field>
+            </block>
+        </value>
+    </block>
+    <block type="global_declaration" id="29" inline="false" x="0" y="0">
+        <field name="NAME">
+            <block type="lexical_variable_get" id="27">
+                <field name="VAR">MOVE_DOWN</field>
+            </block>
+        </field>
+        <value name="VALUE">
+            <block type="math_number" id="28">
+                <field name="NUM">1</field>
+            </block>
+        </value>
+    </block>
+    <block type="global_declaration" id="32" inline="false" x="0" y="0">
+        <field name="NAME">
+            <block type="lexical_variable_get" id="30">
+                <field name="VAR">MOVE_LEFT</field>
+            </block>
+        </field>
+        <value name="VALUE">
+            <block type="math_number" id="31">
+                <field name="NUM">2</field>
+            </block>
+        </value>
+    </block>
+    <block type="global_declaration" id="35" inline="false" x="0" y="0">
+        <field name="NAME">
+            <block type="lexical_variable_get" id="33">
+                <field name="VAR">MOVE_RIGHT</field>
+            </block>
+        </field>
+        <value name="VALUE">
+            <block type="math_number" id="34">
+                <field name="NUM">3</field>
+            </block>
+        </value>
+    </block>
+    <block type="procedures_defreturn" id="37" inline="false" x="0" y="0">
+        <mutation>
+            <arg name="I"></arg>
+        </mutation>
+        <field name="NAME">merge</field>
+        <field name="VAR0">I</field>
+        <value name="RETURN">
+            <block type="math_number" id="36">
+                <field name="NUM">1</field>
+            </block>
+        </value>
+    </block>
+    <block type="procedures_defreturn" id="49" inline="false" x="0" y="0">
+        <mutation>
+            <arg name="_map"></arg>
+        </mutation>
+        <field name="NAME">map_merge</field>
+        <field name="VAR0">_map</field>
+        <value name="RETURN">
+            <block type="local_declaration_expression" id="48" inline="false">
+                <mutation>
+                    <localname name="ret"></localname>
+                </mutation>
+                <field name="VAR0">ret</field>
+                <value name="DECL0">
+                    <block type="lists_create_with" id="38">
+                        <mutation items="0"></mutation>
+                    </block>
+                </value>
+                <value name="RETURN">
+                    <block type="controls_do_then_return" id="47" inline="false">
+                        <statement name="STM">
+                            <block type="controls_forEach" id="46" inline="false">
+                                <field name="VAR">
+                                    <block type="lexical_variable_get" id="40">
+                                        <field name="VAR">I</field>
+                                    </block>
+                                </field>
+                                <value name="LIST">
+                                    <block type="lexical_variable_get" id="41">
+                                        <field name="VAR">_map</field>
+                                    </block>
+                                </value>
+                                <statement name="DO">
+                                    <block type="lists_add_items" id="45" inline="false">
+                                        <mutation items="1"></mutation>
+                                        <value name="LIST">
+                                            <block type="lexical_variable_get" id="42">
+                                                <field name="VAR">ret</field>
+                                            </block>
+                                        </value>
+                                        <value name="ITEM0">
+                                            <block type="procedures_callreturn" id="44" inline="false">
+                                                <mutation name="merge">
+                                                    <arg name="I"></arg>
+                                                </mutation>
+                                                <field name="PROCNAME">merge</field>
+                                                <value name="ARG0">I</value>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </statement>
+                            </block>
+                        </statement>
+                        <value name="VALUE">
+                            <block type="lexical_variable_get" id="39">
+                                <field name="VAR">ret</field>
+                            </block>
+                        </value>
+                    </block>
+                </value>
+            </block>
+        </value>
+    </block>
+    <yacodeblocks ya-version="157" language-version="20"></yacodeblocks>
+</xml>
